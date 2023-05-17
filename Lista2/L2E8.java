@@ -7,16 +7,18 @@ package Lista2;
     ULTIMA ATUALIZAÇÃO: 16/05/2023
 */
 
+//IMPORTANDO O SCANNER
 import java.util.Scanner;
 
 public class L2E8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        //VARIÁVEIS
         String nome;
         int idade;
 
-        // ENTRADA DE DADOS
+        //LENDO O NOME, IDADE, GÊNERO E SE O USUÁRIO TEM CARTEIRA DE MOTORISTA
         System.out.print("Digite seu nome: ");
         nome = scanner.nextLine();
 
@@ -31,7 +33,7 @@ public class L2E8 {
 
         System.out.println("Olá " + nome);
 
-        // DECISÃO ENCADEADA
+        // DECISÃO ENCADEADA PARA FORNECER AS INFORMAÇÕES DO USUÁRIO
         if (idade >= 18) {
             System.out.println("Você é maior de idade.");
 
